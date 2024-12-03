@@ -1,0 +1,26 @@
+.detalle-producto{
+    display: flex;
+    margin: 1rem;
+    gap: 1.5rem;
+    img{
+        width: 100%;
+        max-height: max-content;
+    }
+    .detalle-contenido{
+        width: 100%;
+    }
+}
+@media (max-width:768px){
+    .detalle-producto{
+       display: block;
+       text-align: center;
+       .detalle-contenido{
+        padding: 1rem;
+        
+       }
+    }
+    img{
+        margin: 0 auto;
+    }
+    
+}

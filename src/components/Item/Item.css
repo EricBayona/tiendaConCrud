@@ -1,0 +1,49 @@
+.producto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: var(--blanco);
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 1rem;
+  }
+  
+  .producto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .producto div {
+    padding: 1rem;
+    background-color:var(--grisClaro);
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  
+  .producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+  
+  .ver-mas {
+    background-color: var(--botonCeleste);
+    color: var(--blanco);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+    display: block;
+    margin-top: 1rem;
+  }
+  
+  .ver-mas:hover {
+    background-color: var(--botonCelesteHover);
+  }
+  

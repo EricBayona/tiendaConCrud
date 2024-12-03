@@ -1,0 +1,228 @@
+[
+    {
+      "id": 1,
+      "nombre": "Bicicleta de Carretera X1",
+      "descripcion": "Bicicleta de carretera ligera y aerodinámica, ideal para largas distancias.",
+      "categoria": "ruta",
+      "imagen": "https://via.placeholder.com/300?text=Bicicleta+de+Carretera+X1",
+      "precio": 500,
+      "stock": 10
+    },
+    {
+      "id": 2,
+      "nombre": "Bicicleta de Carretera X2",
+      "descripcion": "Bicicleta de carretera con marco de carbono para un rendimiento superior.",
+      "categoria": "ruta",
+      "imagen": "https://via.placeholder.com/300?text=Bicicleta+de+Carretera+X2",
+      "precio": 650,
+      "stock": 10
+    },
+    {
+      "id": 3,
+      "nombre": "Bicicleta de Carretera X3",
+      "descripcion": "Bicicleta de carretera con frenos de disco, ideal para cualquier clima.",
+      "categoria": "ruta",
+      "imagen": "https://via.placeholder.com/300?text=Bicicleta+de+Carretera+X3",
+      "precio": 750,
+      "stock": 10
+    },
+    {
+      "id": 4,
+      "nombre": "Bicicleta de Carretera X4",
+      "descripcion": "Bicicleta de carretera con cambios Shimano, perfecta para ciclistas exigentes.",
+      "categoria": "ruta",
+      "imagen": "https://via.placeholder.com/300?text=Bicicleta+de+Carretera+X4",
+      "precio": 900,
+      "stock": 10
+    },
+    {
+      "id": 5,
+      "nombre": "Bicicleta de Carretera X5",
+      "descripcion": "Bicicleta de carretera de alta gama con cuadro de aluminio y componentes de alta calidad.",
+      "categoria": "ruta",
+      "imagen": "https://via.placeholder.com/300?text=Bicicleta+de+Carretera+X5",
+      "precio": 1200,
+      "stock": 10
+    },
+    {
+      "id": 6,
+      "nombre": "Bicicleta de Carretera X6",
+      "descripcion": "Bicicleta de carretera con diseño ergonómico y ruedas de alta velocidad.",
+      "categoria": "ruta",
+      "imagen": "https://via.placeholder.com/300?text=Bicicleta+de+Carretera+X6",
+      "precio": 950,
+      "stock": 10
+    },
+    {
+      "id": 7,
+      "nombre": "Bicicleta de Carretera X7",
+      "descripcion": "Bicicleta de carretera diseñada para competir, con un marco ultraligero.",
+      "categoria": "ruta",
+      "imagen": "https://via.placeholder.com/300?text=Bicicleta+de+Carretera+X7",
+      "precio": 1100,
+      "stock": 10
+    },
+    {
+      "id": 8,
+      "nombre": "Bicicleta de Carretera X8",
+      "descripcion": "Bicicleta de carretera con tecnología avanzada en el sistema de suspensión.",
+      "categoria": "ruta",
+      "imagen": "https://via.placeholder.com/300?text=Bicicleta+de+Carretera+X8",
+      "precio": 1050,
+      "stock": 10
+    },
+    {
+      "id": 9,
+      "nombre": "Bicicleta de Carretera X9",
+      "descripcion": "Bicicleta de carretera de alto rendimiento con ruedas aerodinámicas.",
+      "categoria": "ruta",
+      "imagen": "https://via.placeholder.com/300?text=Bicicleta+de+Carretera+X9",
+      "precio": 1300,
+      "stock": 10
+    },
+    {
+      "id": 10,
+      "nombre": "Bicicleta de Carretera X10",
+      "descripcion": "Bicicleta de carretera con cambios electrónicos y frenos de carbono.",
+      "categoria": "ruta",
+      "imagen": "https://via.placeholder.com/300?text=Bicicleta+de+Carretera+X10",
+      "precio": 1500,
+      "stock": 10
+    },
+    {
+      "id": 11,
+      "nombre": "Bicicleta de Montaña X1",
+      "descripcion": "Bicicleta de montaña con suspensión total y ruedas reforzadas para terrenos difíciles.",
+      "categoria": "mtb",
+      "imagen": "https://via.placeholder.com/300?text=Bicicleta+de+Montaña+X1",
+      "precio": 400,
+      "stock": 10
+    },
+    {
+      "id": 12,
+      "nombre": "Bicicleta de Montaña X2",
+      "descripcion": "Bicicleta de montaña con marco de aluminio y frenos de disco hidráulicos.",
+      "categoria": "mtb",
+      "imagen": "https://via.placeholder.com/300?text=Bicicleta+de+Montaña+X2",
+      "precio": 500,
+      "stock": 10
+    },
+    {
+      "id": 13,
+      "nombre": "Bicicleta de Montaña X3",
+      "descripcion": "Bicicleta de montaña con suspensión delantera y cuadro reforzado.",
+      "categoria": "mtb",
+      "imagen": "https://via.placeholder.com/300?text=Bicicleta+de+Montaña+X3",
+      "precio": 550,
+      "stock": 10
+    },
+    {
+      "id": 14,
+      "nombre": "Bicicleta de Montaña X4",
+      "descripcion": "Bicicleta de montaña con llantas de 29” y suspensión de aire para mayor confort.",
+      "categoria": "mtb",
+      "imagen": "https://via.placeholder.com/300?text=Bicicleta+de+Montaña+X4",
+      "precio": 600,
+      "stock": 10
+    },
+    {
+      "id": 15,
+      "nombre": "Bicicleta de Montaña X5",
+      "descripcion": "Bicicleta de montaña con cuadro de carbono y cambios Shimano Deore.",
+      "categoria": "mtb",
+      "imagen": "https://via.placeholder.com/300?text=Bicicleta+de+Montaña+X5",
+      "precio": 700,
+      "stock": 10
+    },
+    {
+      "id": 16,
+      "nombre": "Bicicleta de Montaña X6",
+      "descripcion": "Bicicleta de montaña con suspensión hidráulica y neumáticos anchos para terreno áspero.",
+      "categoria": "mtb",
+      "imagen": "https://via.placeholder.com/300?text=Bicicleta+de+Montaña+X6",
+      "precio": 750,
+      "stock": 10
+    },
+    {
+      "id": 17,
+      "nombre": "Bicicleta de Montaña X7",
+      "descripcion": "Bicicleta de montaña de alto rendimiento con suspensión total y ruedas tubeless.",
+      "categoria": "mtb",
+      "imagen": "https://via.placeholder.com/300?text=Bicicleta+de+Montaña+X7",
+      "precio": 850,
+      "stock": 10
+    },
+    {
+      "id": 18,
+      "nombre": "Bicicleta de Montaña X8",
+      "descripcion": "Bicicleta de montaña de alta gama con frenos de disco hidráulicos y amortiguación de calidad.",
+      "categoria": "mtb",
+      "imagen": "https://via.placeholder.com/300?text=Bicicleta+de+Montaña+X8",
+      "precio": 900,
+      "stock": 10
+    },
+    {
+      "id": 19,
+      "nombre": "Bicicleta de Montaña X9",
+      "descripcion": "Bicicleta de montaña con cuadro de aluminio y amortiguador trasero de alta tecnología.",
+      "categoria": "mtb",
+      "imagen": "https://via.placeholder.com/300?text=Bicicleta+de+Montaña+X9",
+      "precio": 1000,
+      "stock": 10
+    },
+    {
+      "id": 20,
+      "nombre": "Bicicleta de Montaña X10",
+      "descripcion": "Bicicleta de montaña de competición con tecnología avanzada y suspensión de alto rendimiento.",
+      "categoria": "mtb",
+      "imagen": "https://via.placeholder.com/300?text=Bicicleta+de+Montaña+X10",
+      "precio": 1200,
+      "stock": 10
+    },
+    {
+      "id": 21,
+      "nombre": "Neumático mtb X1",
+      "descripcion": "Neumático de repuesto para bicicleta de montaña, resistente y duradero.",
+      "categoria": "repuestos",
+      "imagen": "https://via.placeholder.com/300?text=Neumático+mtb+X1",
+      "precio": 50,
+      "stock": 10
+    },
+    {
+      "id": 22,
+      "nombre": "Frenos mtb X1",
+      "descripcion": "Kit de frenos hidráulicos para bicicletas de montaña, con alto poder de detención.",
+      "categoria": "repuestos",
+      "imagen": "https://via.placeholder.com/300?text=Frenos+mtb+X1",
+      "precio": 120,
+      "stock": 10
+    },
+    {
+      "id": 23,
+      "nombre": "Cadena mtb X1",
+      "descripcion": "Cadena de repuesto para bicicletas de montaña, compatible con transmisión Shimano.",
+      "categoria": "repuestos",
+      "imagen": "https://via.placeholder.com/300?text=Cadena+mtb+X1",
+      "precio": 40,
+      "stock": 10
+    },
+    {
+      "id": 24,
+      "nombre": "Cambio Shimano Deore X1",
+      "descripcion": "Cambio trasero Shimano Deore para bicicletas de montaña.",
+      "categoria": "repuestos",
+      "imagen": "https://via.placeholder.com/300?text=Cambio+Shimano+Deore+X1",
+      "precio": 75,
+      "stock": 10
+    },
+    {
+      "id": 25,
+      "nombre": "Sillin mtb X1",
+      "descripcion": "Sillin ergonómico para bicicletas de montaña, ideal para largos recorridos.",
+      "categoria": "repuestos",
+      "imagen": "https://via.placeholder.com/300?text=Sillin+mtb+X1",
+      "precio": 60,
+      "stock": 10
+    }
+  ]
+  

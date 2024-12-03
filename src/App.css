@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Globales */
+li,a{
+    text-decoration: none;
+    list-style: none;
+    
+}
+:root{
+    --verde: #00A149;
+    --blanco: #fff;
+    --negro: #111111;
+    --rojo: #881014;
+    --amarillo: #e5c511;
+    --oscuro: #e71d06;
+    --gris: #bdbdc0;
+    --grisClaro:  #f4f4f4;
+    --botonCeleste:#007bff;
+    --botonCelesteHover: #0056b3;
+    --titulos: 'Arima', cursive;
+    --parrafos: 'Mulish', sans-serif;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 95%;
+}
+h1,h2{
+    font-family: var(--titulos);
+}
+.probar{
+    div{
+
+        display: flex;
+        background-color: red;
+    }
+}
+#root{
+    background-color: #0056b3;
+    min-height:100vh ;
+}

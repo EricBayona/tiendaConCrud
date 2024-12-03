@@ -1,0 +1,20 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--negro);
+    padding: 1.5rem;
+    .logo{
+        font-size: 2rem;
+        color: var(--gris);
+    }
+    .menu{
+        display: flex;
+        gap: 1rem;
+        padding-right: 1rem;
+        .menu-lista{
+            color: var(--gris);
+            font-size: 1.5rem;
+        }
+    }
+}
