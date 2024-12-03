@@ -8,5 +8,10 @@
     grid-template-columns:repeat(auto-fill,minmax(23rem, 1fr));
     width: 80%;
     margin: 1rem auto;
+}
+@media (max-width:600px){
+    .productos{
+        grid-template-columns:repeat(auto-fill,minmax(15rem, 1fr));
 
+    }
 }

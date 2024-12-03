@@ -33,13 +33,6 @@ li,a{
 h1,h2{
     font-family: var(--titulos);
 }
-.probar{
-    div{
-
-        display: flex;
-        background-color: red;
-    }
-}
 #root{
     background-color: #0056b3;
     min-height:100vh ;

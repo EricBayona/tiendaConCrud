@@ -4,7 +4,8 @@
     gap: 1.5rem;
     img{
         width: 100%;
-        max-height: max-content;
+        /* max-height: max-content; */
+        
     }
     .detalle-contenido{
         width: 100%;
