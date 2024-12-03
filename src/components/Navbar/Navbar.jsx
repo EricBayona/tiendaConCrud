@@ -88,7 +88,7 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <CartWidget handleLinkClick={handleLinkClick}/>
+            <CartWidget handleLinkClick={handleLinkClick}/>
         </li>
       </ul>
     </nav>
