@@ -48,7 +48,7 @@ function ItemDetail({ item }) {
   };
 
   const handleSumar = () => {
-    cantidad < item.stock && setCantidad(cantidad + 1);
+    cantidad < setCantidad(cantidad + 1);
   };
 
   return (
