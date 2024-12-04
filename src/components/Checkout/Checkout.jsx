@@ -3,10 +3,12 @@ import { CartContext } from "../../Context/CartContex";
 import { useForm } from "react-hook-form";
 import { collection, addDoc } from "firebase/firestore";
 import { db } from "../../fireBase/config";
+import FinalizacionCompra from "./finalizacionCompra";
 
 function Checkout() {
 
     const [pedidoId, setPedidoId]=useState("")
+    const [ clienteData, setClienteDAta] = useState(null)
     const { carrito, precioTotal, limpiarCarrito} = useContext(CartContext);
 
     const { register, handleSubmit, reset } = useForm();
@@ -17,22 +19,19 @@ function Checkout() {
         productos : carrito,
         total: precioTotal()
     }
-    console.log(pedido);
     reset()
     const pedidosRef = collection(db, "pedidos");
     addDoc(pedidosRef, pedido)
     .then((doc)=>{
         setPedidoId(doc.id);
+        setClienteDAta(data)
         limpiarCarrito();
     })
   }
 
   if (pedidoId){7
     return (
-        <div>
-            <h1>Muchas Gracias Por su compra</h1>
-            <p>Tu numero de pedido es: {pedidoId}</p>
-        </div>
+      <FinalizacionCompra pedidoId={pedidoId} data={clienteData}/>
     )
   }
 
