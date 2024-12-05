@@ -3,7 +3,7 @@ import { CartContext } from "../../Context/CartContex";
 import { useForm } from "react-hook-form";
 import { collection, addDoc } from "firebase/firestore";
 import { db } from "../../fireBase/config";
-import FinalizacionCompra from "./finalizacionCompra";
+import FinalizacionCompra from "./FinalizacionCompra";
 
 function Checkout() {
 
