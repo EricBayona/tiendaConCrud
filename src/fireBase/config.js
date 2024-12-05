@@ -6,12 +6,12 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_APIKEY,
-  authDomain: import.meta.env.VITE_AUTHDOMAIN,
-  projectId: import.meta.env.VITE_PROJECTID,
-  storageBucket: import.meta.env.VITE_STORAGEBUCKET,
-  messagingSenderId:import.meta.env.VITE_MESSAGINGSENDERID,
-  appId: import.meta.env.VITE_APPID
+  apiKey: "AIzaSyAMZNkQTyPfnCAGVLNcAZK_7d_sT9M5wI8",
+  authDomain: "bayona-bike-store.firebaseapp.com",
+  projectId: "bayona-bike-store",
+  storageBucket: "bayona-bike-store.firebasestorage.app",
+  messagingSenderId: "213639808830",
+  appId: "1:213639808830:web:30d768e3cd25db0d5dce6f"
 };
 
 // Initialize Firebase
