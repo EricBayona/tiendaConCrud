@@ -36,7 +36,6 @@ function ItemDetail({ item }) {
         <span>Realizamos envíos a todo el país (excepto Tierra del Fuego) a través de Andreani, Correo Argentino, Vía Cargo y Bus Pack dependiendo de tu ubicación, de lo que hayas elegido y el proveedor que sea más conveniente.</span>
       </div> ,
     },
-    // Agrega más secciones según sea necesario
   ];
   const {carrito , agregarAlCarrito}= useContext(CartContext);
   console.log(carrito);

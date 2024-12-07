@@ -1,8 +1,9 @@
+import { Link } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 function ItemCount({cantidad, handleAgregar, handleRestar, handleSumar}) {
     
-const notify =()=> toast.success("Se agrego al Carrito")
+const notify =()=> toast.success(<div><Link to="/carrito">Se agrego al Carrito</Link></div>)
     return (
       <div>
           <div className="item-count flex items-center">

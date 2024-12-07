@@ -22,7 +22,7 @@ function Carrito() {
           <p className="text-lg">Precio unitario: ${prod.precio}</p>
           <p className="text-lg">Precio total: ${prod.precio * prod.cantidad}</p>
           <p className="text-lg">Cantidad: {prod.cantidad}</p>
-          <button onClick={()=>eliminarDelCarrito(prod.id)}>Eliminar</button>
+          <button className="bg-red-500 text-white px-6 py-3 mt-4 rounded-md hover:bg-red-600 transition duration-300" onClick={()=>eliminarDelCarrito(prod.id)}>Eliminar</button>
         </div>
         
       ))}
