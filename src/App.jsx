@@ -10,6 +10,7 @@ import Nosotros from './pages/Nosotros'
 import Contacto from './pages/Contacto'
 import Footer from './components/Footer/Footer'
 import Checkout from './components/Checkout/Checkout'
+import Crud from './components/Crud/Crud'
 function App() {
   
 
@@ -26,6 +27,7 @@ function App() {
         <Route path='/nosotros' element={<Nosotros/>}/>
         <Route path='/contacto' element={<Contacto/>}/>
         <Route path='/checkout' element={<Checkout/>}/>
+        <Route path='/crud' element={<Crud/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>

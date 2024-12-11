@@ -1,19 +1,47 @@
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+import { getAuth, setPersistence, browserLocalPersistence } from 'firebase/auth';
+import { getFirestore} from 'firebase/firestore';
+import { getStorage } from 'firebase/storage';
 
-// Your web app's Firebase configuration
+export { 
+  collection, 
+  doc, 
+  getDoc, 
+  setDoc, 
+  query, 
+  updateDoc, 
+  addDoc, 
+  where, 
+  onSnapshot,
+  deleteDoc,
+  getDocs
+} from 'firebase/firestore';
+
+export { 
+  signInWithEmailAndPassword,
+  signOut,
+  createUserWithEmailAndPassword,
+  onAuthStateChanged,
+  GoogleAuthProvider,
+  signInWithPopup,
+  sendPasswordResetEmail,
+  fetchSignInMethodsForEmail,
+  sendEmailVerification
+} from 'firebase/auth';
+
+
 const firebaseConfig = {
-  apiKey: "AIzaSyAMZNkQTyPfnCAGVLNcAZK_7d_sT9M5wI8",
-  authDomain: "bayona-bike-store.firebaseapp.com",
-  projectId: "bayona-bike-store",
-  storageBucket: "bayona-bike-store.firebasestorage.app",
-  messagingSenderId: "213639808830",
-  appId: "1:213639808830:web:30d768e3cd25db0d5dce6f"
+  apiKey: import.meta.env.VITE_API_KEY,
+  authDomain: import.meta.env.VITE_PROJECT_ID + '.firebaseapp.com',
+  projectId: import.meta.env.VITE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_PROJECT_ID +'.appspot.com',
+  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID, appId: import.meta.env.VITE_APP_ID
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
+export const auth = getAuth(app);
+export const storage = getStorage(app);
+
+
+setPersistence(auth, browserLocalPersistence);

@@ -16,6 +16,7 @@ function Footer() {
             <Link to="/repuestos" className="hover:underline mb-2 md:mb-0">Repuestos</Link>
             <Link to="/nosotros" className="hover:underline mb-2 md:mb-0">Nosotros</Link>
             <Link to="/contacto" className="hover:underline">Contacto</Link>
+            <Link to="/crud" className="hover:underline">Crud</Link>
           </div>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500">

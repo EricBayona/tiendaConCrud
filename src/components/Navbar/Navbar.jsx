@@ -87,6 +87,15 @@ function Navbar() {
             Contacto
           </Link>
         </li>
+        <li className="p-4">
+          <Link
+            className="menu-lista text-gray-400 text-2xl"
+            to="/crud"
+            onClick={handleLinkClick}
+          >
+            Crud
+          </Link>
+        </li>
         <li>
             <CartWidget handleLinkClick={handleLinkClick}/>
         </li>
