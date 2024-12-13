@@ -97,6 +97,15 @@ function Navbar() {
           </Link>
         </li>
         <li>
+          <Link
+            className="menu-lista text-gray-400 text-2xl"
+            to="/login"
+            onClick={handleLinkClick}
+          >
+            Login
+          </Link>
+        </li>
+        <li>
             <CartWidget handleLinkClick={handleLinkClick}/>
         </li>
       </ul>

@@ -45,3 +45,5 @@ export const storage = getStorage(app);
 
 
 setPersistence(auth, browserLocalPersistence);
+
+export default app;
